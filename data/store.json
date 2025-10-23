@@ -1,5 +1,21 @@
 {
   "customers": {
+    "98a50b37-5627-4531-b2cf-bfe744112a81": {
+      "id": "98a50b37-5627-4531-b2cf-bfe744112a81",
+      "email": "test@gmail.com",
+      "name": "test",
+      "phone": "",
+      "loyalty_points": 0,
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "postal_code": "",
+        "country": "USA"
+      },
+      "created_at": "2025-10-23T12:18:53.2664952+05:00",
+      "updated_at": "2025-10-23T12:18:53.2664952+05:00"
+    },
     "cust-1": {
       "id": "cust-1",
       "email": "john.doe@example.com",

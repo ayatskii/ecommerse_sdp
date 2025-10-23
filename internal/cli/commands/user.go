@@ -114,8 +114,13 @@ var userListCmd = &cobra.Command{
 		table.SetHeader([]string{"ID", "Name", "Email", "Phone", "Loyalty Points", "State"})
 
 		for _, customer := range customers {
+			displayID := customer.ID
+			if len(customer.ID) > 8 {
+				displayID = customer.ID[:8] + "..."
+			}
+
 			table.Append([]string{
-				customer.ID[:8] + "...",
+				displayID,
 				customer.Name,
 				customer.Email,
 				customer.Phone,

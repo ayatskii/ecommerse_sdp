@@ -2,7 +2,6 @@ package commands
 
 import (
 	"fmt"
-	"os"
 
 	"github.com/ecommerce/payment-system/internal/app"
 	"github.com/spf13/cobra"
@@ -53,9 +52,4 @@ func init() {
 
 func GetApplication() *app.Application {
 	return application
-}
-
-func exitOnError(err error) {
-	fmt.Fprintf(os.Stderr, "Error: %v\n", err)
-	os.Exit(1)
 }

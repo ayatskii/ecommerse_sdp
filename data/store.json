@@ -1,0 +1,127 @@
+{
+  "customers": {
+    "cust-1": {
+      "id": "cust-1",
+      "email": "john.doe@example.com",
+      "name": "John Doe",
+      "phone": "+1234567890",
+      "loyalty_points": 500,
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "postal_code": "94105",
+        "country": "USA"
+      },
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    }
+  },
+  "products": {
+    "prod-1": {
+      "id": "prod-1",
+      "name": "Laptop",
+      "description": "High-performance laptop",
+      "price": 999.99,
+      "sku": "LAP-001",
+      "stock": 8,
+      "category": "Electronics",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    "prod-2": {
+      "id": "prod-2",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse",
+      "price": 29.99,
+      "sku": "MOU-001",
+      "stock": 47,
+      "category": "Accessories",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    "prod-3": {
+      "id": "prod-3",
+      "name": "USB-C Cable",
+      "description": "High-speed USB-C cable",
+      "price": 19.99,
+      "sku": "CAB-001",
+      "stock": 100,
+      "category": "Accessories",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    "prod-4": {
+      "id": "prod-4",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard",
+      "price": 149.99,
+      "sku": "KEY-001",
+      "stock": 25,
+      "category": "Accessories",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    "prod-5": {
+      "id": "prod-5",
+      "name": "Monitor",
+      "description": "27-inch 4K monitor",
+      "price": 399.99,
+      "sku": "MON-001",
+      "stock": 15,
+      "category": "Electronics",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    }
+  },
+  "carts": {
+    "5fdebcfb-8de1-48e5-8b3b-a1994ae41463": {
+      "id": "5fdebcfb-8de1-48e5-8b3b-a1994ae41463",
+      "customer_id": "cust-1",
+      "items": [
+        {
+          "product_id": "prod-1",
+          "product": {
+            "id": "prod-1",
+            "name": "Laptop",
+            "description": "High-performance laptop",
+            "price": 999.99,
+            "sku": "LAP-001",
+            "stock": 8,
+            "category": "Electronics",
+            "created_at": "0001-01-01T00:00:00Z",
+            "updated_at": "0001-01-01T00:00:00Z"
+          },
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "created_at": "2025-10-23T10:51:57.1475076+05:00",
+      "updated_at": "2025-10-23T10:55:03.9216916+05:00"
+    }
+  },
+  "transactions": {
+    "3220820a-8dad-47d4-81e6-877501ccfe46": {
+      "id": "3220820a-8dad-47d4-81e6-877501ccfe46",
+      "customer_id": "cust-1",
+      "amount": 2089.95,
+      "status": "completed",
+      "payment_method": "credit_card",
+      "payment_details": {
+        "card_holder": "John Doe",
+        "cashback_amount": 208.995,
+        "cashback_percentage": 10,
+        "last_4_digits": "****0366",
+        "payment_strategy": "instant",
+        "processed_at": "2025-10-23T10:52:49+05:00",
+        "subtotal": 2089.95,
+        "tax_amount": 177.64575,
+        "tax_rate": 8.5,
+        "tax_region": "CA"
+      },
+      "metadata": null,
+      "processed_at": "2025-10-23T10:52:49.6666923+05:00",
+      "created_at": "2025-10-23T10:52:49.5656885+05:00"
+    }
+  }
+}

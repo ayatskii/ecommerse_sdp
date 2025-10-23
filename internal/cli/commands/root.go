@@ -48,6 +48,7 @@ func init() {
 	rootCmd.AddCommand(productsCmd)
 	rootCmd.AddCommand(historyCmd)
 	rootCmd.AddCommand(userCmd)
+	rootCmd.AddCommand(debitCmd)
 }
 
 func GetApplication() *app.Application {

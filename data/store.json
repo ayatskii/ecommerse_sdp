@@ -1,5 +1,21 @@
 {
   "customers": {
+    "9851627d-7479-4fb5-b8f3-1b57cdbacc89": {
+      "id": "9851627d-7479-4fb5-b8f3-1b57cdbacc89",
+      "email": "something@gmail.com",
+      "name": "something",
+      "phone": "",
+      "loyalty_points": 0,
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "postal_code": "",
+        "country": "USA"
+      },
+      "created_at": "2025-10-23T12:43:44.0835233+05:00",
+      "updated_at": "2025-10-23T12:43:44.0835233+05:00"
+    },
     "98a50b37-5627-4531-b2cf-bfe744112a81": {
       "id": "98a50b37-5627-4531-b2cf-bfe744112a81",
       "email": "test@gmail.com",
@@ -94,26 +110,9 @@
     "5fdebcfb-8de1-48e5-8b3b-a1994ae41463": {
       "id": "5fdebcfb-8de1-48e5-8b3b-a1994ae41463",
       "customer_id": "cust-1",
-      "items": [
-        {
-          "product_id": "prod-1",
-          "product": {
-            "id": "prod-1",
-            "name": "Laptop",
-            "description": "High-performance laptop",
-            "price": 999.99,
-            "sku": "LAP-001",
-            "stock": 8,
-            "category": "Electronics",
-            "created_at": "0001-01-01T00:00:00Z",
-            "updated_at": "0001-01-01T00:00:00Z"
-          },
-          "quantity": 1,
-          "price": 999.99
-        }
-      ],
+      "items": [],
       "created_at": "2025-10-23T10:51:57.1475076+05:00",
-      "updated_at": "2025-10-23T10:55:03.9216916+05:00"
+      "updated_at": "2025-10-23T13:22:06.6799393+05:00"
     }
   },
   "transactions": {
